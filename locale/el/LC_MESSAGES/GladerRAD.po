@@ -1,0 +1,210 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: testing create pot\n"
+"POT-Creation-Date: 2018-03-30 14:49+0300\n"
+"PO-Revision-Date: 2018-03-30 14:52+0300\n"
+"Last-Translator: Ηλιάδης Ηλίας <iliadis@kekbay.gr>\n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: ../README.md\n"
+"X-Poedit-SearchPathExcluded-1: ../skeleton.nonpy.py\n"
+"X-Poedit-SearchPathExcluded-2: ../icons\n"
+
+#: glades/main.glade:55
+msgid "Glade file:"
+msgstr "Αρχείο Glade:"
+
+#: glades/main.glade:67
+msgid "Select a Glade file"
+msgstr "Επιλέξτε αρχείο Glade"
+
+#: glades/main.glade:69
+msgid "Select a Glade File"
+msgstr "Επιλέξτε αρχείο Glade"
+
+#: glades/main.glade:100
+msgid "Theme:"
+msgstr "Θέμα:"
+
+#: glades/main.glade:112
+msgid ""
+"Change theme used\n"
+"for showing the generated code."
+msgstr ""
+"Αλλάξτε το θέμα που θα χρησιμοποηθεί\n"
+"για την εμφάνιση του κώδικα που παραχθεί."
+
+#: glades/main.glade:137
+msgid "Shows the path to selected input Glade file."
+msgstr "Δείχνει τη διαδρομή που βρίσκεται το αρχείο Glade."
+
+#: glades/main.glade:139
+msgid "No file selected"
+msgstr "Δεν έχει επιλεγεί αρχείο"
+
+#: glades/main.glade:164
+msgid "App name:"
+msgstr "Όνομα της εφαρμογής:"
+
+#: glades/main.glade:176
+msgid "The name that application is going to use."
+msgstr "Το όνομα που θα χρησιμοποιήσει η εφαρμογή."
+
+#: glades/main.glade:190
+msgid "Class name:"
+msgstr "Όνομα της κλάσης."
+
+#: glades/main.glade:202
+msgid ""
+"Name of section that will hold settings\n"
+"for this window only. Also the name of the class for the window.\n"
+"Other windows may use the same configuration file\n"
+"if they have different\"section\" name."
+msgstr ""
+"Το όνομα που θα χρησιμοποιήσει η εφαρμογή για τη\n"
+"δημιουργία section στο αρχείο ρυθμίσεων.\n"
+"Το όνομα αυτό θα χρησιμοποιηθεί και σαν όνομα της κλάσης. "
+
+#: glades/main.glade:217
+msgid "Intgrade Glade"
+msgstr "Ενσωμάτωση Glade"
+
+#: glades/main.glade:221
+msgid ""
+"Check it if you want the glade file to be included\n"
+"as text in the generated code,\n"
+"in order not to distribute as a separate file."
+msgstr ""
+"Τσεκάρετε αν θέλετε το αρχείο Glade να ενσωματωθεί\n"
+"στο αρχείο της python σαν κείμενο ώστε να μην χρειάζετε\n"
+"να το διανείμετε ξεχωριστά."
+
+#: glades/main.glade:261
+msgid "Generated code:"
+msgstr "Παραχθείς κώδικας:"
+
+#: glades/main.glade:274
+msgid ""
+"Change font (font family or size)\n"
+"for showing the generated code."
+msgstr ""
+"Αλλάζει τη γραμματοσειρά (οικογένεια και μέγεθος)\n"
+"στο παράθυρο που εμφανίζει τον παραχθέντα κώδικα."
+
+#: glades/main.glade:341
+msgid ""
+"Shows the generated code.\n"
+"Click \"Save as\" to save it."
+msgstr ""
+"Δείχνει τον κώδικα που παρήγαγε το πρόγραμμα.\n"
+"Πατήστε \"Αποθήκευση ως...\" για να τον αποθηκεύσετε."
+
+#: glades/main.glade:387
+msgid "Regenerate the code if you changed the Glade file."
+msgstr "Ξαναφτιάχνει τον κώδικα αν αλλάξατε κάτι στο αρχείο Glade."
+
+#: glades/main.glade:405
+msgid "Regenerate"
+msgstr "Επαναφόρτωση."
+
+#: glades/main.glade:450
+msgid "Make executable"
+msgstr "Εκτελέσιμο"
+
+#: glades/main.glade:454
+msgid ""
+"Check if you want to make the saved file executable\n"
+"(for non MS OSes)"
+msgstr ""
+"Τσεκάρετε αν θέλετε να κάνετε το αρχείο εκτελέσιμο μετά την αποθήκευση\n"
+"(για λειτουργικά που απαιτείται)"
+
+#: glades/main.glade:481
+msgid "Save the code."
+msgstr "Αποθήκευση του κώδικα"
+
+#: glades/main.glade:500
+msgid "Exit"
+msgstr "Έξοδος"
+
+#: gladerrad.py:493 gladerrad.py:738
+msgid "Warnings:"
+msgstr "Προειδοποιήσεις:"
+
+#: gladerrad.py:703
+msgid "Generated app name, maybe not a good choise!"
+msgstr "Αυτόματο όνομα για την εφαρμογή, μάλλον κακή ιδέα!"
+
+#: gladerrad.py:711
+msgid "Generated class name, maybe not a good choise!"
+msgstr "Αυτόματο όνομα για την κλάση, μάλλον κακή ιδέα!"
+
+#: gladerrad.py:749
+msgid "There is nothing to save."
+msgstr "Δεν υπάρχει τίποτε για αποθήκευση."
+
+#: gladerrad.py:780
+#, python-brace-format
+msgid ""
+"File:\n"
+"{respfile}\n"
+" already exists.\n"
+"Overwrite?"
+msgstr ""
+"Το αρχείο:\n"
+"{respfile}\n"
+"υπάρχει ήδη.\n"
+"Να αντικατασταθεί;"
+
+#: gladerrad.py:790
+msgid "There was an error writing to"
+msgstr "Παρουσιάστηκε σφάλμα κατά την εγγραφή σε"
+
+#: gladerrad.py:794
+msgid "File was saved"
+msgstr "Το αρχείο αποθηκεύτηκε"
+
+#: gladerrad.py:798
+msgid "Mode +rwx (774) was set to make it executable."
+msgstr "Το +rwx (774) χρησιμοποιήθηκε για να κάνει το αρχείο εκτελέσιμο."
+
+#: gladerrad.py:800
+msgid "Unable to make it executable"
+msgstr "Αδυναμία αλλαγής σε εκτελέσιμο"
+
+#: gladerrad.py:830
+msgid "_Yes"
+msgstr "_Ναι"
+
+#: gladerrad.py:832
+msgid "_OK"
+msgstr "_Εντάξει"
+
+#: gladerrad.py:834
+msgid "_No"
+msgstr "_Όχι"
+
+#: gladerrad.py:836
+msgid "_Cancel"
+msgstr "_Ακύρωση"
+
+#: gladerrad.py:838
+msgid "OK"
+msgstr "Εντάξει"
+
+#~ msgid "App NAME:"
+#~ msgstr "NAME για την εφαρμογή:"
+
+#~ msgid "Insert Glade file"
+#~ msgstr "Να εισαχθεί το αρχείο Glade"
+
+#~ msgid "File"
+#~ msgstr "Το αρχείο"
