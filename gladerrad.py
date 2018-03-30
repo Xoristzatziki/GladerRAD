@@ -29,7 +29,7 @@ NAME = 'GladerRAD'
 NAMEASONE = NAME.replace(' ', '_')
 CONFIGDOMAIN = 'MainWindow'
 #FIXME: correct the version
-__version__ = '0.0.14'
+__version__ = '0.0.16'
 VERSIONSTR = '{} v. {}'.format(NAME, __version__)
 
 #RETURN ERROR CODES
@@ -777,7 +777,7 @@ THEGLADESTR = \"\"\"{gladestr}\"\"\"\n""".format(gladestr=gladestr)
         dlg.destroy()
         if response == Gtk.ResponseType.OK:
             if os.path.exists(respfile):
-                message = (_('File') + ':\n{respfile}\n '.format(respfile=respfile) + _('already exists.\nOverwrite?'))
+                message = (_('File:\n{respfile}\n already exists.\nOverwrite?').format(respfile=respfile) )
                 ok_to_save = self.MessageBox(message=message, buttons='OK, CANCEL', boxtype = 'WARNING')
                 if not ok_to_save:
                     return None
