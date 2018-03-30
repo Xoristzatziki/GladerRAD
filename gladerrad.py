@@ -29,7 +29,7 @@ NAME = 'GladerRAD'
 NAMEASONE = NAME.replace(' ', '_')
 CONFIGDOMAIN = 'MainWindow'
 #FIXME: correct the version
-__version__ = '0.0.16'
+__version__ = '0.0.17'
 VERSIONSTR = '{} v. {}'.format(NAME, __version__)
 
 #RETURN ERROR CODES
@@ -85,7 +85,7 @@ try:
     import stat
     from datetime import datetime
     from keyword import iskeyword
-    from gi.repository import Gdk, GdkPixbuf, GLib, GObject, Pango
+    from gi.repository import Gdk, GdkPixbuf, GObject, Pango
     gi_require_version('GtkSource', '3.0')
     from gi.repository import GtkSource
     from bs4 import BeautifulSoup as BS
@@ -228,7 +228,6 @@ READFROMFILE = """#Load the ui from a file
 READFROMSTRING = """#Load the ui from given string
         self.gladestring = THEGLADESTR\n"""
 
-#class GladerRADApp(Gtk.Window):
 class GladerRADApp(Gtk.Window):
     """ Main window with all components. """
 
@@ -250,7 +249,7 @@ class GladerRADApp(Gtk.Window):
         try:
             self.builder.add_from_string(self.gladestring)
         except Exception as ex:
-            print('\nError building main window!\nwindowMain'.format(ex))
+            print('\nError building main window!\nwindowMain\nrepr(ex)')
             sys.exit(ERROR_INVALID_GLADE_FILE)
 
         # Get gui objects
@@ -806,7 +805,8 @@ THEGLADESTR = \"\"\"{gladestr}\"\"\"\n""".format(gladestr=gladestr)
         else:
             return None
 
-    def make_executable(self, filename):
+    @staticmethod
+    def make_executable(filename):
         """ Make a file executable, by setting mode 774. """
         # chmod 774
         mode774 = stat.S_IRWXU | stat.S_IRWXG | stat.S_IROTH
@@ -1005,7 +1005,8 @@ class GenerateFromGlade:
             #print('Exception', str(e))
             #print(e.args)
 
-    def create_the_def(self, widgettype, signalname, signalhandler, widgetname):
+    @staticmethod
+    def create_the_def(widgettype, signalname, signalhandler, widgetname):
         spacing = ' ' * 4
         defaultargs = ('self', 'widget', '*args')
         content = spacing + 'def {signalhandler}('
@@ -1034,7 +1035,7 @@ class GenerateFromGlade:
         return content.format(signalhandler=signalhandler,signalname=signalname,widgetname=widgetname)
 
 if __name__ == '__main__':
-    """ Main entry point for the program. """
+    #Main entry point for the program, if run from command line.
     app_to_use = GladerRADApp()
     response = app_to_use.run()
     #print('response:', response)
