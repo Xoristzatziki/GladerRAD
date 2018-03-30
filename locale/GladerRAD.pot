@@ -1,0 +1,184 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: testing create pot\n"
+"POT-Creation-Date: 2018-03-30 15:04+0300\n"
+"PO-Revision-Date: 2018-03-30 13:59+0300\n"
+"Last-Translator: Ηλιάδης Ηλίας <iliadis@kekbay.gr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: ../README.md\n"
+"X-Poedit-SearchPathExcluded-1: ../skeleton.nonpy.py\n"
+"X-Poedit-SearchPathExcluded-2: ../icons\n"
+
+#: glades/main.glade:55
+msgid "Glade file:"
+msgstr ""
+
+#: glades/main.glade:67
+msgid "Select a Glade file"
+msgstr ""
+
+#: glades/main.glade:69
+msgid "Select a Glade File"
+msgstr ""
+
+#: glades/main.glade:100
+msgid "Theme:"
+msgstr ""
+
+#: glades/main.glade:112
+msgid ""
+"Change theme used\n"
+"for showing the generated code."
+msgstr ""
+
+#: glades/main.glade:137
+msgid "Shows the path to selected input Glade file."
+msgstr ""
+
+#: glades/main.glade:139
+msgid "No file selected"
+msgstr ""
+
+#: glades/main.glade:164
+msgid "App name:"
+msgstr ""
+
+#: glades/main.glade:176
+msgid "The name that application is going to use."
+msgstr ""
+
+#: glades/main.glade:190
+msgid "Class name:"
+msgstr ""
+
+#: glades/main.glade:202
+msgid ""
+"Name of section that will hold settings\n"
+"for this window only. Also the name of the class for the window.\n"
+"Other windows may use the same configuration file\n"
+"if they have different\"section\" name."
+msgstr ""
+
+#: glades/main.glade:217
+msgid "Intgrade Glade"
+msgstr ""
+
+#: glades/main.glade:221
+msgid ""
+"Check it if you want the glade file to be included\n"
+"as text in the generated code,\n"
+"in order not to distribute as a separate file."
+msgstr ""
+
+#: glades/main.glade:261
+msgid "Generated code:"
+msgstr ""
+
+#: glades/main.glade:274
+msgid ""
+"Change font (font family or size)\n"
+"for showing the generated code."
+msgstr ""
+
+#: glades/main.glade:341
+msgid ""
+"Shows the generated code.\n"
+"Click \"Save as\" to save it."
+msgstr ""
+
+#: glades/main.glade:387
+msgid "Regenerate the code if you changed the Glade file."
+msgstr ""
+
+#: glades/main.glade:405
+msgid "Regenerate"
+msgstr ""
+
+#: glades/main.glade:450
+msgid "Make executable"
+msgstr ""
+
+#: glades/main.glade:454
+msgid ""
+"Check if you want to make the saved file executable\n"
+"(for non MS OSes)"
+msgstr ""
+
+#: glades/main.glade:481
+msgid "Save the code."
+msgstr ""
+
+#: glades/main.glade:500
+msgid "Exit"
+msgstr ""
+
+#: gladerrad.py:493 gladerrad.py:738
+msgid "Warnings:"
+msgstr ""
+
+#: gladerrad.py:703
+msgid "Generated app name, maybe not a good choise!"
+msgstr ""
+
+#: gladerrad.py:711
+msgid "Generated class name, maybe not a good choise!"
+msgstr ""
+
+#: gladerrad.py:749
+msgid "There is nothing to save."
+msgstr ""
+
+#: gladerrad.py:780
+#, python-brace-format
+msgid ""
+"File:\n"
+"{respfile}\n"
+" already exists.\n"
+"Overwrite?"
+msgstr ""
+
+#: gladerrad.py:790
+msgid "There was an error writing to"
+msgstr ""
+
+#: gladerrad.py:794
+msgid "File was saved"
+msgstr ""
+
+#: gladerrad.py:798
+msgid "Mode +rwx (774) was set to make it executable."
+msgstr ""
+
+#: gladerrad.py:800
+msgid "Unable to make it executable"
+msgstr ""
+
+#: gladerrad.py:830
+msgid "_Yes"
+msgstr ""
+
+#: gladerrad.py:832
+msgid "_OK"
+msgstr ""
+
+#: gladerrad.py:834
+msgid "_No"
+msgstr ""
+
+#: gladerrad.py:836
+msgid "_Cancel"
+msgstr ""
+
+#: gladerrad.py:838
+msgid "OK"
+msgstr ""
